@@ -1,0 +1,14 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Andrew:
+  name: Andrew Li
+  picture: /images/logo.png
+  twitter: 
+  links:
+    - title: Github
+      url: https://github.com/orcahmlee
+      icon: fab fa-github
+    - title: Linkedin
+      url: https://www.linkedin.com/in/orcahmlee/
+      icon: fab fa-linkedin
