@@ -1,0 +1,11 @@
+.DS_Store
+
+# Visual Studio Code
+.vscode
+
+
+# jekyll, so-simple-theme
+.jekyll-cache
+_site
+Gemfile.lock
+
