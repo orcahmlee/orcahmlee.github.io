@@ -1,7 +1,7 @@
 ---
 title: "About"
 image: 
-  path: /assets/images/bio-banner.jpg
+  path: /assets/images/about-banner.jpg
 ---
 
 I am currently working as a Data Engineer and Data Analyst, besides I am a cross-domain engineer.:smile:<br>
