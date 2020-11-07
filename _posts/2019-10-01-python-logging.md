@@ -234,4 +234,4 @@ if __name__ == "__main__":
 接著執行下去，你就可以看到在同一個 application 中使用不同型態的 `logger` 的結果啦。
 
 ---
-完整的 sample code 請參考 [python-logging](https://github.com/orcahmlee/lab-technical-note/tree/master/logging)。
+完整的 sample code 請參考 [python-logging](https://github.com/orcahmlee/lab-technical-note/tree/master/Python/logging)。

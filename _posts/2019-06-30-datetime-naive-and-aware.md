@@ -60,4 +60,4 @@ print(now_la_pytz.tzinfo)
 ```
 
 ---
-完整的 sample code 請參考 [01-naive-and-aware](https://nbviewer.jupyter.org/github/orcahmlee/lab-technical-note/blob/master/datetime/01-naive-and-aware.ipynb)
+完整的 sample code 請參考 [01-naive-and-aware](https://github.com/orcahmlee/lab-technical-note/blob/master/Python/datetime/01-naive-and-aware.ipynb)

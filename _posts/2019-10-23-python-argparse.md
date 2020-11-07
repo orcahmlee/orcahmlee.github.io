@@ -223,4 +223,4 @@ The duration between 2019-01-01 and 2019-01-03 is 3 days.
 ```
 
 ---
-完整的 sample code 請參考 [python-cli](https://github.com/orcahmlee/lab-technical-note/tree/master/cli/argparse)。
+完整的 sample code 請參考 [python-cli](https://github.com/orcahmlee/lab-technical-note/tree/master/Python/cli/argparse)。
