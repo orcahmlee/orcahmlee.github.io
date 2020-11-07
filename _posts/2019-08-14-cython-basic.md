@@ -110,6 +110,6 @@ run_as_cython.factorial(5)
 利用 jupyter 的 `%%timeit` 測試，可以發現一樣的程式碼，速度提升接近 8 倍。
 
 ---
-完整的 sample code 請參考 [cython-basic](https://nbviewer.jupyter.org/github/orcahmlee/lab-technical-note/blob/master/cython/cython-basic.ipynb)。
+完整的 sample code 請參考 [cython-basic](https://github.com/orcahmlee/lab-technical-note/tree/master/cython)。
 
 如果你要直接下載執行的話，由於機器的不同，可能需要重新編譯。
