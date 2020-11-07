@@ -139,5 +139,5 @@ ax = sns.lineplot(x="年份", y="價格", data=df)
 是不是好看多啦:laughing:
 
 ---
-完整的 sample code 請參考 [working-matplotlib-and-seaborn-with-chinese](https://nbviewer.jupyter.org/github/orcahmlee/lab-technical-note/blob/master/plotting/working-matplotlib-and-seaborn-with-chinese/working-matplotlib-and-seaborn-with-chinese.ipynb)。
+完整的 sample code 請參考 [working-matplotlib-and-seaborn-with-chinese](https://github.com/orcahmlee/lab-technical-note/blob/master/plotting/working-matplotlib-and-seaborn-with-chinese/working-matplotlib-and-seaborn-with-chinese.ipynb)。
 
