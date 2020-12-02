@@ -22,6 +22,7 @@ Python 是一種直譯式的動態語言，它的優點是可讀性高、彈性�
 
 ```shell
 macOS Mojave Version 10.14.3
+Python 3.6
 ```
 
 ## 1. Write a simple Python code
@@ -90,7 +91,7 @@ python setup.py build_ext --inplace
 使用方式就只要簡單的 `import` 該檔案就好啦。
 
 ## 5. Try it
-萬事俱備，直接在 jupyter notebook 中測試一下速度是不是真的從機車變成高鐵吧。
+萬事俱備，直接在 Jupyter Notebook 中測試一下速度是不是真的從機車變成高鐵吧。
 
 ```python
 import run_as_python
@@ -107,7 +108,7 @@ run_as_cython.factorial(5)
 # 79.4 ns ± 1.46 ns per loop (mean ± std. dev. of 7 runs, 10000000 loops each)
 ```
 
-利用 jupyter 的 `%%timeit` 測試，可以發現一樣的程式碼，速度提升接近 8 倍。
+利用 Jupyter 的 `%%timeit` 測試，可以發現一樣的程式碼，速度提升接近 8 倍。
 
 ---
 完整的 sample code 請參考 [cython-basic](https://github.com/orcahmlee/lab-technical-note/tree/master/Python/cython)。
