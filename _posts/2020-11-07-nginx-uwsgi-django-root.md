@@ -69,6 +69,22 @@ STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
 ```
 
+接著修改一些安全性設定，首先將 `SECRET_KEY` 改成吃環境變數的方式，避免直接暴露於版本控制中。
+
+P.S.: 本文為了 Demo 方便，將預設產生的 `SECRET_KEY` 值設定成 `default`，請不要使用於正式環境。
+
+```python
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = os.getenv('SECRET_KEY', '!^-p96ces65=nkgedrbvc2v5^y6asmm5#y#-3+&u7edzju16pu')
+```
+
+再來則是 Django 自帶的 Debug 模式，由於 Debug 模式會呈現很多資訊，如路徑、變數名稱、變數內容⋯⋯等等，請不要使用於正式環境。
+
+```python
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = os.getenv('DEBUG', True)
+```
+
 為了讓 `api` 的內容可以被讀取到，需要修改 `dj3` 的路由設定，將 `dj3/urls.py` 的檔案修改如下。
 
 ```python
