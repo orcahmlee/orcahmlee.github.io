@@ -17,7 +17,7 @@ Python 是一種直譯式的動態語言，它的優點是可讀性高、彈性�
 
 以下參考官方的教學 [Basic Tutorial](http://docs.cython.org/en/latest/src/tutorial/cython_tutorial.html#basic-tutorial)，紀錄使用過程。
 
-## OS information:
+OS Information:
 由於編譯過程會與系統相依，所以這邊顯示我使用的系統資訊。
 
 ```shell
