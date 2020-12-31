@@ -3,7 +3,7 @@ title: "DevOps：如何將容器化 (Docker + Nginx + uWSGI + Django + PostgreSQ
 layout: post
 toc: true
 categories: DevOps
-tags: nginx uwsgi django
+tags: docker docker-compose
 lang: en
 ---
 
