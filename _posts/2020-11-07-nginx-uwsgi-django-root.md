@@ -140,7 +140,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-在瀏覽器中開啟 [http://localhost:8000/api/](http://localhost:8000/api/) ，就可以看到 `I am Django 3.1 !!!` 的文字；
+在瀏覽器中開啟 [http://localhost:8000/api/](http://localhost:8000/api/)，就可以看到 `I am Django 3.1 !!!` 的文字；
 
 而開啟 [http://localhost:8000/admin/](http://localhost:8000/admin/) 的話，就可以看到 Django 自帶的管理介面啦。
 
@@ -182,7 +182,7 @@ pidfile = /tmp/dj3-master.pid
 uwsgi --ini uwsgi.ini
 ```
 
-接著在瀏覽器中開啟 [http://localhost:8003/api/](http://localhost:8003/api/) ，就可以看到 `I am Django 3.1 !!!` 的文字；
+接著在瀏覽器中開啟 [http://localhost:8003/api/](http://localhost:8003/api/)，就可以看到 `I am Django 3.1 !!!` 的文字；
 
 而開啟 [http://localhost:8003/admin/](http://localhost:8003/admin/) 的話，就可以看到 Django 自帶的管理介面啦。
 
