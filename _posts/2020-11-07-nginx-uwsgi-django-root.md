@@ -9,7 +9,8 @@ lang: en
 How to deploy the Django application at the root on a host machine using Nginx + uWSGI + Django
 ===
 
-部署的設定千百種，坑也是千百種，所以趁著還有記憶的時候趕快紀錄一下。
+部署的設定千百種，坑也是千百種，所以趁著還有記憶的時候趕快紀錄一下。完整的 sample code 請參考 [nginx-uwsgi-django-depoly-at-root](https://github.com/orcahmlee/lab-technical-note/tree/master/DevOps/nginx-uwsgi-django/depoly-at-root)。
+
 
 以下的設定皆是在 `Mac` 上進行測試，若是在 `CentOS 7` 或是 `Ubuntu` 上的話，`Nginx` 的部分可能需要微調。
 
@@ -400,6 +401,3 @@ invalid request block size: 21573 (max 4096)...skip
 這是因為我們在設定 `uwsgi_pass` 之前，有先將 `uwsgi.ini` 的設定檔改成 `socket = :8003`，這表示我們的 Django 服務是使用 UNIX socket 跑在 `127.0.0.1:8003` 上，但是並不是使用 HTTP protocal，所以無法用瀏覽器打開。
 
 最後，這個簡易的 Django application 也成功地被部署到主機的根目錄啦～～～
-
----
-完整的 sample code 請參考 [nginx-uwsgi-django-depoly-at-root](https://github.com/orcahmlee/lab-technical-note/tree/master/DevOps/nginx-uwsgi-django/depoly-at-root)。
