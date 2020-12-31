@@ -12,7 +12,7 @@ How to deploy the containerized web application at the root on a host machine us
 
 從上一篇 [DevOps：如何將 Nginx + uWSGI + Django 的服務部署在一台主機的根目錄]({{ site.baseurl }}{% post_url 2020-11-07-nginx-uwsgi-django-root %}) 中已經知道如何建立並部署一個 Django 專案。
 
-從這篇開始紀錄如何將整個專案容器化後，並部署到主機的根目錄上。本文不會著重在 Docker 的細節，相關細節可以參考 [Dockerfile](https://docs.docker.com/engine/reference/builder/) 與 [Docker Compose](https://docs.docker.com/compose/)。完整的 sample code 請參考 [docker-compose-deploy-at-root](https://github.com/orcahmlee/lab-technical-note/tree/master/DevOps/docker-compose-nginx-uwsgi-django-postgres/docker-compose-deploy-at-root)。
+從這篇開始紀錄如何將整個專案容器化後，並部署到主機的根目錄上。本文不會著重在 Docker 的細節，相關細節可以參考 [Dockerfile](https://docs.docker.com/engine/reference/builder/) 與 [Docker Compose](https://docs.docker.com/compose/)。完整的 sample code 請參考 [docker-compose-deploy-at-root](https://github.com/orcahmlee/lab-technical-code/tree/master/DevOps/docker-compose-nginx-uwsgi-django-postgres/docker-compose-deploy-at-root)。
 
 
 以下的設定皆是在 `Mac` 上進行測試，若是在 `CentOS 7` 或是 `Ubuntu` 上的話，`Nginx` 的部分可能需要微調。

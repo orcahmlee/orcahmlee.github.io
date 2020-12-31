@@ -109,4 +109,4 @@ ax.set_title('Student A')
 ---
 其他的畫法，例如把多個學生畫在同一個雷達圖上、把多個雷達畫在同一張圖上，都是基於上述的方法做一些修改。
 
-完整的 sample code 請參考 [radar-charts](https://github.com/orcahmlee/lab-technical-note/blob/master/Data-Science/plotting/radar-chart/radar-charts.ipynb)
+完整的 sample code 請參考 [radar-charts](https://github.com/orcahmlee/lab-technical-code/blob/master/Data-Science/plotting/radar-chart/radar-charts.ipynb)

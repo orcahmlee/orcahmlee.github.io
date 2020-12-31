@@ -9,7 +9,7 @@ lang: en
 How to deploy the Django application at the root on a host machine using Nginx + uWSGI + Django
 ===
 
-部署的設定千百種，坑也是千百種，所以趁著還有記憶的時候趕快紀錄一下。完整的 sample code 請參考 [nginx-uwsgi-django-depoly-at-root](https://github.com/orcahmlee/lab-technical-note/tree/master/DevOps/nginx-uwsgi-django/depoly-at-root)。
+部署的設定千百種，坑也是千百種，所以趁著還有記憶的時候趕快紀錄一下。完整的 sample code 請參考 [nginx-uwsgi-django-depoly-at-root](https://github.com/orcahmlee/lab-technical-code/tree/master/DevOps/nginx-uwsgi-django/depoly-at-root)。
 
 
 以下的設定皆是在 `Mac` 上進行測試，若是在 `CentOS 7` 或是 `Ubuntu` 上的話，`Nginx` 的部分可能需要微調。

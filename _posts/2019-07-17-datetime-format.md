@@ -92,4 +92,4 @@ datetime.strptime('2019-07-17T11:30:41.918288', '%Y-%m-%dT%H:%M:%S.%f')
 ```
 
 ---
-完整的 sample code 請參考 [02-datetime-format](https://github.com/orcahmlee/lab-technical-note/blob/master/Python/datetime/02-datetime-format.ipynb)
+完整的 sample code 請參考 [02-datetime-format](https://github.com/orcahmlee/lab-technical-code/blob/master/Python/datetime/02-datetime-format.ipynb)

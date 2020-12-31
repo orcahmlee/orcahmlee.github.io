@@ -131,4 +131,4 @@ I'm from TAIWAN!
 ```
 
 ---
-完整的 sample code 請參考 [string-formatting](https://github.com/orcahmlee/lab-technical-note/blob/master/Python/string/string-formatting.ipynb)
+完整的 sample code 請參考 [string-formatting](https://github.com/orcahmlee/lab-technical-code/blob/master/Python/string/string-formatting.ipynb)
