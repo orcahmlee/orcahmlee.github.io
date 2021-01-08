@@ -9,7 +9,7 @@ toc: true
 The easiest way to create Python environment for Data Science using conda
 ===
 
-## Introduction
+# Introduction
 建立環境是一件很重要卻很煩人的事情，有經驗的開發者會利用 [Homebrew](https://brew.sh/)、[yum](https://en.wikipedia.org/wiki/Yum_(software))、[APT](https://en.wikipedia.org/wiki/APT_(Package_Manager)) 等套件管理工具安裝 [Python](https://www.python.org/about/)，當然也可以到 Python 官網直接下載 [GUI 的安裝檔](https://www.python.org/downloads/)，最後再確定環境變數有正確的設定。
 
 安裝好 Python 後，為了不污染系統本身的 Python2，一般來說都會利用 [venv](https://docs.python.org/3/library/venv.html#module-venv)、[virtualenv](https://pypi.org/project/virtualenv/) 或 [pipenv](https://pypi.org/project/pipenv/) 來建立 Python 的虛擬環境以達到彼此隔離的效果。
@@ -34,18 +34,18 @@ Anaconda 在安裝的過程中，會一次幫你下載並安裝 720 以上資料
 
 ---
 ## Installation on CentOS7
-##### OS information:
+OS information:
 ```shell
 # cat /etc/centos-release
 CentOS Linux release 7.4.1708 (Core)
 ```
 
-##### Login your account
+Login your account
 ```
 sudo -i -u <user name>
 ```
 
-##### Install Miniconda
+Install Miniconda
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)<br>
 下載最新的 `bash installer`。
 
@@ -80,12 +80,12 @@ conda config --set auto_activate_base false
 > If you'd prefer that conda's `base` environment not be activated on startup, set the auto_activate_base parameter to false:
 
 ## Installation on macOS
-##### OS information:
+OS information:
 ```shell
 macOS Mojave Version 10.14.3
 ```
 
-##### Install Miniconda
+Install Miniconda
 [Miniconda](https://docs.conda.io/en/latest/miniconda.html)<br>
 依照平台下載最新的 GUI 安裝檔或是 `bash` 安裝檔，這邊我直接下載 `.pkg` ，然後無腦地一鍵安裝。
 
@@ -176,7 +176,7 @@ Andrew-MacAir:~ Andrew$
 ### 3. Creating the environments
 接著就開始建立自己所需要的 Python 環境啦！<br>
 
-##### 3.1 從無到有開始
+**3.1 從無到有開始**<br>
 `conda create -n <env name> python=x.x` 這指令可以建立自己喜歡的環境名稱，並指定 Python 版本。
 
 ```shell
@@ -242,7 +242,7 @@ base                  *  /Users/Andrew/miniconda3
 technical-note           /Users/Andrew/miniconda3/envs/technical-note
 ```
 
-##### 3.2 利用事先定義好的 yml 檔
+**3.2 利用事先定義好的 yml 檔**<br>
 `conda env create -f <yml name>` 這指令可以依照檔案內容來建立正確的環境。
 
 ```yml
@@ -264,7 +264,7 @@ dependencies:
 當然，在開發的過程中，有可能會一直新增或刪減套件，當 yml 檔修正後，可以利用 `conda env update -f <yml name>` 指令來更新你的環境。
 
 ### 4. Removing the environments
-##### 4.1 在當下的環境中，移除某一個 package
+**4.1 在當下的環境中，移除某一個 package**<br>
 `conda remove <package name>`
 
 ```shell
@@ -289,7 +289,7 @@ The following packages will be REMOVED:
 Proceed ([y]/n)?
 ```
 
-##### 4.2 在不進入環境的狀況下，移除某一個環境中的某一個 package
+**4.2 在不進入環境的狀況下，移除某一個環境中的某一個 package**<br>
 `conda remove -n <env name> <package name>`
 
 ```shell
@@ -314,7 +314,7 @@ The following packages will be REMOVED:
 Proceed ([y]/n)? 
 ```
 
-##### 4.3 最後，當你不想要某一個環境，或是某一個環境被玩爛的時候，你可以把整個環境移除
+**4.3 最後，當你不想要某一個環境，或是某一個環境被玩爛的時候，你可以把整個環境移除**<br>
 `conda remove -n <env name> --all` 或是 `conda env remove -n <env name>`
 
 ```shell
