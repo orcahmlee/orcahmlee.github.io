@@ -6,8 +6,7 @@ lang: en
 toc: true
 ---
 
-The easiest way to create Python environment for Data Science using conda
-===
+>The easiest way to create Python environment for Data Science using conda
 
 # Introduction
 建立環境是一件很重要卻很煩人的事情，有經驗的開發者會利用 [Homebrew](https://brew.sh/)、[yum](https://en.wikipedia.org/wiki/Yum_(software))、[APT](https://en.wikipedia.org/wiki/APT_(Package_Manager)) 等套件管理工具安裝 [Python](https://www.python.org/about/)，當然也可以到 Python 官網直接下載 [GUI 的安裝檔](https://www.python.org/downloads/)，最後再確定環境變數有正確的設定。

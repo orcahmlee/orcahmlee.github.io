@@ -5,8 +5,7 @@ tags: python matplotlib radar
 lang: en
 ---
 
-Data Visualization: Radar chart
-===
+>Data Visualization: Radar chart
 
 雷達圖適合拿來說明一個個體的組成，例如一個學生的各科分數、一個籃球員的各項表現、一個食物的各種成分比例⋯⋯等等，資料必須為數值型(Numeric)且不適合太多項，一般來說，五、六項差不多可以讓人類一眼分辨又不會覺得眼花撩亂。
 

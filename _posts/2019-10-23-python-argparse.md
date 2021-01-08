@@ -6,8 +6,7 @@ lang: en
 toc: true
 ---
 
-How to use argparse creating CLI in Python
-===
+>How to use argparse creating CLI in Python
 
 Command-Line Interface(CLI)，一種透過文字來跟你的程式溝通的介面，在 Linux 或 MacOS 介面中一定會用到 CLI 來達到你想要的目的，而且身為一個潮潮的工程師一定要會打一些指令:smirk:。
 

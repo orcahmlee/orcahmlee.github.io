@@ -6,8 +6,7 @@ lang: en
 toc: true
 ---
 
-How to deploy the Django application at the root on a host machine using Nginx + uWSGI + Django
-===
+>How to deploy the Django application at the root on a host machine using Nginx + uWSGI + Django
 
 部署的設定千百種，坑也是千百種，所以趁著還有記憶的時候趕快紀錄一下。完整的 sample code 請參考 [nginx-uwsgi-django-depoly-at-root](https://github.com/orcahmlee/lab-technical-code/tree/master/DevOps/nginx-uwsgi-django/depoly-at-root)。
 
