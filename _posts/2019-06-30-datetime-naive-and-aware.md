@@ -1,13 +1,12 @@
 ---
 title: "datetime 物件：Naive 與 Aware"
-layout: post
 categories: Python
 tags: datetime
 lang: en
+toc: true
 ---
 
-The datetime objects: Naive and Aware
-===
+>The datetime objects: Naive and Aware
 
 處理資料與分析資料的過程中，很常會遇到 `時間`，包括 `日期(Date)` 與 `時間(Time)`，這邊紀錄 Python 的 [datetime](https://docs.python.org/3.6/library/datetime.html) 使用方式。
 

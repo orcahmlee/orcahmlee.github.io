@@ -1,13 +1,12 @@
 ---
 title: "logging：如何使用 logging 紀錄事件"
-layout: post
 categories: Python
 tags: logging
 lang: en
+toc: true
 ---
 
-How to use logging in Python
-===
+>How to use logging in Python
 
 `Log` 是你的好朋友，尤其是當 **User** 說他昨天可以用，但是今天突然就不能用的時候:expressionless:，<br>
 `Log` 絕對是你的好朋友:smirk:。

@@ -1,13 +1,12 @@
 ---
 title: "如何漂亮地格式化你的字串"
-layout: post
 categories: Python
 tags: string
 lang: en
+toc: true
 ---
 
-How to format your string?
-===
+>How to format your string?
 
 在這篇 [datetime 物件：strftime() and strptime()]({{ site.baseurl }}{% post_url 2019-07-17-datetime-format %}) 中有看到一些格式化字串的方法。
 

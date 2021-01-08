@@ -1,13 +1,12 @@
 ---
 title: "datetime 物件：strftime() and strptime()"
-layout: post
 categories: Python
 tags: datetime
 lang: en
+toc: true
 ---
 
-The datetime objects: strftime() and strptime()
-===
+>The datetime objects: strftime() and strptime()
 
 從上一篇 [datetime 物件：Naive 與 Aware]({{ site.baseurl }}{% post_url 2019-06-30-datetime-naive-and-aware %}) 知道如何建立 `datetime` 物件後。
 

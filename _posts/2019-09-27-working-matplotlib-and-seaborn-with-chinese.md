@@ -1,13 +1,12 @@
 ---
 title: "matplotlib 與 seaborn 中文顯示問題"
-layout: post
 categories: Data-Science
 tags: matplotlib seaborn
 lang: en
+toc: true
 ---
 
-Working matplotlib and seaborn with Chinese 
-===
+>Working matplotlib and seaborn with Chinese 
 
 當你利用 `conda` 安裝好資料科學的 Python 環境(請參考 [利用 conda 快速建立資料科學的 Python 環境]({{ site.baseurl }}{% post_url 2019-06-13-conda-python %}))後，就在你想要畫出第一張折線圖(Line chart) 時，卻變成這個樣子⋯⋯
 

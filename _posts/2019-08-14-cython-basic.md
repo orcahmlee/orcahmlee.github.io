@@ -1,13 +1,12 @@
 ---
 title: "Cython：加速你的 Python code"
-layout: post
 categories: Python
 tags: cython
 lang: en
+toc: true
 ---
 
-Cython: Speeding up your Python code
-===
+>Cython: Speeding up your Python code
 
 Python 是一種直譯式的動態語言，它的優點是可讀性高、彈性大、開發快⋯⋯等很多優點啦(***This is why I like it!***)。但是，身為直譯式語言(Interpreted language)的一員，在執行速度上當然會比編譯式語言(Compiled language)慢一點啦。
 
