@@ -1,9 +1,9 @@
 ---
 title: "DevOps：如何將 Nginx + uWSGI + Django 的服務部署在一台主機的根目錄"
-layout: post
 categories: DevOps
 tags: nginx uwsgi django
 lang: en
+toc: true
 ---
 
 How to deploy the Django application at the root on a host machine using Nginx + uWSGI + Django

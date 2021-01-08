@@ -1,6 +1,5 @@
 ---
 title: "視覺化：雷達圖"
-layout: post
 categories: Data-Science
 tags: python matplotlib radar
 lang: en

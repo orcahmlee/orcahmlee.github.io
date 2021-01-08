@@ -1,9 +1,9 @@
 ---
 title: "如何漂亮地格式化你的字串"
-layout: post
 categories: Python
 tags: string
 lang: en
+toc: true
 ---
 
 How to format your string?

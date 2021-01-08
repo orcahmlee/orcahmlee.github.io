@@ -1,14 +1,12 @@
 ---
 title: "DevOps：如何將容器化 (Docker + Nginx + uWSGI + Django + PostgreSQL) 的服務部署在一台主機的根目錄"
-layout: post
-toc: true
 categories: DevOps
 tags: docker docker-compose
 lang: en
+toc: true
 ---
 
-How to deploy the containerized web application at the root on a host machine using Docker + Nginx + uWSGI + Django + PostgreSQL
-===
+>How to deploy the containerized web application at the root on a host machine using Docker + Nginx + uWSGI + Django + PostgreSQL
 
 從上一篇 [DevOps：如何將 Nginx + uWSGI + Django 的服務部署在一台主機的根目錄]({{ site.baseurl }}{% post_url 2020-11-07-nginx-uwsgi-django-root %}) 中已經知道如何建立並部署一個 Django 專案。
 

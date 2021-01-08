@@ -1,9 +1,9 @@
 ---
 title: "logging：如何使用 logging 紀錄事件"
-layout: post
 categories: Python
 tags: logging
 lang: en
+toc: true
 ---
 
 How to use logging in Python

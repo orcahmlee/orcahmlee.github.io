@@ -1,9 +1,9 @@
 ---
 title: "datetime 物件：Naive 與 Aware"
-layout: post
 categories: Python
 tags: datetime
 lang: en
+toc: true
 ---
 
 The datetime objects: Naive and Aware

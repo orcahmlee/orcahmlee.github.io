@@ -1,9 +1,9 @@
 ---
 title: "argparse：如何使用 argparse 製作 CLI"
-layout: post
 categories: Python
 tags: cli argparse
 lang: en
+toc: true
 ---
 
 How to use argparse creating CLI in Python

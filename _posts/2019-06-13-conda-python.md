@@ -1,9 +1,9 @@
 ---
 title: "利用 conda 快速建立資料科學的 Python 環境"
-layout: post
 categories: Data-Science
 tags: python conda
 lang: en
+toc: true
 ---
 
 The easiest way to create Python environment for Data Science using conda

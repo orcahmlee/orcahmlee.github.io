@@ -1,9 +1,9 @@
 ---
 title: "Cython：加速你的 Python code"
-layout: post
 categories: Python
 tags: cython
 lang: en
+toc: true
 ---
 
 Cython: Speeding up your Python code

@@ -1,9 +1,9 @@
 ---
 title: "matplotlib 與 seaborn 中文顯示問題"
-layout: post
 categories: Data-Science
 tags: matplotlib seaborn
 lang: en
+toc: true
 ---
 
 Working matplotlib and seaborn with Chinese 

@@ -1,9 +1,9 @@
 ---
 title: "datetime 物件：strftime() and strptime()"
-layout: post
 categories: Python
 tags: datetime
 lang: en
+toc: true
 ---
 
 The datetime objects: strftime() and strptime()
