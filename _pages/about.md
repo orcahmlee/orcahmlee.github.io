@@ -13,7 +13,7 @@ Base on the above experiences, I am good at communicating with people who work i
 
 The above experiences do not seem to be related, but they truly connect each other by **DATA**.<br>
 
-# EXPERIENCE
+## EXPERIENCE
 
 - **Data Engineer**
   - Using machine learning to solve real-world problems. 
@@ -25,7 +25,7 @@ The above experiences do not seem to be related, but they truly connect each oth
 - **Reserch Assistant**
   - Dedicated to Microbial Metabolism, Genetic Engineering and Bacterial Fermentation.
 
-# SKILLS (Data Science and Development)
+## SKILLS (Data Science and Development)
 - **Programming languages**: Python, R, Bash, JavaScript, Java, Go
 - **Machine learning**: Pandas, Numpy, Scikit-learn, XGBoost, Scipy, Sympy
 - **Data visualization**: Matplotlib, Seaborn, Plotly, Dash, Folium
@@ -36,7 +36,7 @@ The above experiences do not seem to be related, but they truly connect each oth
 - **DevOps**: git, Airflow, Nginx, Docker, Docker Compose, Jenkins
 - **Cloud providers**: GCP
 
-# SKILLS(Chemical Engineering)
+## SKILLS(Chemical Engineering)
 - Solvent recovery
 - Analytical Chemistry
 - Polymer Science
