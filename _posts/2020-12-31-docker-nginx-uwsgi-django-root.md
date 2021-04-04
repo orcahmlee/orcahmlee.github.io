@@ -409,3 +409,33 @@ volumes:
 ```shell
 $ docker-compose up 
 ```
+
+## 5. Using uwsgi_pass
+
+補充使用 uwsgi_pass 的設定，需修改的檔案有 `uwsgi.ini` 與 `docker-nginx-dj3.conf`。這兩個檔案的設定是互相呼應的，若是要使用 `uwsgi_pass`，則 `uwsgi.ini` 就不能使用 `http protocal`，則需改為 `socket`。
+
+
+`uwsgi.ini`
+
+```shell
+[uwsgi]
+socket = :8003
+```
+
+`docker-nginx-dj3.conf`
+
+```shell
+upstream uwsgi {
+    server web:8003;  # using the docker network
+}
+
+server {
+    location / {
+        uwsgi_pass uwsgi;
+        # uwsgi_pass web:8003;
+        include /etc/nginx/uwsgi_params; # the uwsgi_params file you installed
+    }
+}
+```
+
+`uwsgi_pass` 所設定的 URI 可以為 `upstream` 也可以直接指定 <IP:PORT>，而這邊是直接使用 `uwsgi protocal`，所以在 IP 前面就不需要加上 protocal 的前綴字。
