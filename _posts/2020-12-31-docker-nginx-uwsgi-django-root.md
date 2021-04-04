@@ -438,4 +438,4 @@ server {
 }
 ```
 
-`uwsgi_pass` 所設定的 URI 可以為 `upstream` 也可以直接指定 <IP:PORT>，而這邊是直接使用 `uwsgi protocal`，所以在 IP 前面就不需要加上 protocal 的前綴字。
+`uwsgi_pass` 所設定的 URI 可以為 `upstream` 也可以直接指定 `IP:PORT`，而這邊是直接使用 `uwsgi protocal`，所以在 IP 前面就不需要加上 protocal 的前綴字。
